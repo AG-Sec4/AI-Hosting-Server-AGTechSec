@@ -1,4 +1,18 @@
 #!/bin/bash
+# ---------------------------------------------------------------------------
+# start_all.sh  —  AG Tech Sec AI Hosting Server Launcher
+# Author: Adam Gwozdz (AG Tech Sec)
+# 
+# Purpose:
+#   Starts the complete AI hosting stack including:
+#     • Ollama (text LLMs)
+#     • OpenWebUI (chat frontend)
+#     • InvokeAI (image generation)
+#   All services run in Docker with auto-restart and persistent storage.
+#   Designed for continuous improvement — future features and integrations
+#   will follow new AI trends, Cisco automation and cybersecurity research.
+# ---------------------------------------------------------------------------
+#!/bin/bash
 # start_all.sh — Start full AI Hosting stack (AG Tech Sec)
 
 set -e
@@ -39,4 +53,5 @@ echo "🌍 Access via:"
 echo "   • OpenWebUI → https://ai.mychatgpt.pl"
 echo "   • InvokeAI  → https://ai.mychatgpt.pl:9090"
 echo "   • Ollama API → http://localhost:11434"
+
 
