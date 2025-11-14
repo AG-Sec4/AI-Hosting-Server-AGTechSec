@@ -57,8 +57,6 @@ No private domains or IPs are exposed publicly in documentation.
 
 ## 🧱 Modern Architecture Diagram
 
-## 🧱 Modern Architecture Diagram
-
 ```text
                   [ Internet ]
                        |
